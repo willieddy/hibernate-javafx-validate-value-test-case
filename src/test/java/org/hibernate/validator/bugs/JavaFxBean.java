@@ -12,10 +12,10 @@ public class JavaFxBean {
     @NotNull
     @Min(value = 1L)
     @Max(value = 1L)
-	private ObjectProperty<BigInteger> id;
+    private ObjectProperty<BigInteger> id;
 
-	protected JavaFxBean() {
-	}
+    protected JavaFxBean() {
+    }
 
     public BigInteger getId() {
         return id.get();
