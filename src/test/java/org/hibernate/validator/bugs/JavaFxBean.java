@@ -10,7 +10,7 @@ import java.math.BigInteger;
 public class JavaFxBean {
 
     @NotNull
-	@Min(value = 1L)
+    @Min(value = 1L)
     @Max(value = 1L)
 	private ObjectProperty<BigInteger> id;
 
